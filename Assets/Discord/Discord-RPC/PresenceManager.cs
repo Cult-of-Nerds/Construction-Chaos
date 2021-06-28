@@ -119,6 +119,11 @@ namespace DiscordPresence
         void Update()
         {
             DiscordRpc.RunCallbacks();
+            if (Input.GetKey("escape"))
+            {
+                Debug.Log("Discord: shutdown");
+                DiscordRpc.Shutdown();
+            }
         }
 
         void OnEnable()
@@ -138,13 +143,13 @@ namespace DiscordPresence
 
         void OnDisable()
         {
-            Debug.Log("Discord: shutdown");
-            DiscordRpc.Shutdown();
+            
+            
         }
 
         void OnDestroy()
         {
-
+            
         }
         #endregion
 

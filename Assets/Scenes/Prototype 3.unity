@@ -1470,7 +1470,7 @@ PrefabInstance:
     - target: {fileID: 114922932606890730, guid: 6765f9da738e023499d7110035d6a3f9,
         type: 3}
       propertyPath: presence.startTimestamp
-      value: 66
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6765f9da738e023499d7110035d6a3f9, type: 3}
